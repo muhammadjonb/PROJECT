@@ -5,6 +5,7 @@ const products = [
     icon: '<ion-icon name="heart-outline"></ion-icon>',
     price: "599,99 ₽",
     name: "Колбаса",
+    label: 'id1',
     description: "Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»",
     stare: [
       "../assets/js/icon/star.svg",
@@ -20,6 +21,7 @@ const products = [
     icon: '<ion-icon name="heart-outline"></ion-icon>',
     price: "44,50 ₽",
     name: "Колбаса",
+    label: 'id2',
     description: "Колбаса сырокопченая МЯСНАЯ ИСТОРИЯ Сальчичон и Тоскан...",
     stare: [
       "../assets/js/icon/star.svg",
@@ -35,6 +37,7 @@ const products = [
     icon: '<ion-icon name="heart-outline"></ion-icon>',
     price: "159,99 ₽",
     name: "Сосиски",
+    label: 'id3',
     description: "Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»",
     stare: [
       "../assets/js/icon/star.svg",
@@ -50,6 +53,7 @@ const products = [
     icon: '<ion-icon name="heart-outline"></ion-icon>',
     price: "49,39 ₽",
     name: "Молоко",
+    label: 'id4',
     description: "Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»",
     stare: [
       "../assets/js/icon/star.svg",
@@ -65,6 +69,7 @@ const products = [
     icon: '<ion-icon name="heart-outline"></ion-icon>',
     price: "77,99 ₽",
     name: "Колбаса",
+    label: 'id5',
     description: "Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»",
     stare: [
       "../assets/js/icon/star.svg",
@@ -80,6 +85,7 @@ const products = [
     icon: '<ion-icon name="heart-outline"></ion-icon>',
     price: "159,99 ₽",
     name: "Сосиски",
+    label: 'id6',
     description: "Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»",
     stare: [
       "../assets/js/icon/star.svg",
@@ -95,6 +101,7 @@ const products = [
     icon: '<ion-icon name="heart-outline"></ion-icon>',
     price: "599,99 ₽",
     name: "Колбаса",
+    label: 'id7',
     description: "Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»",
     stare: [
       "../assets/js/icon/star.svg",
@@ -110,6 +117,7 @@ const products = [
     icon: '<ion-icon name="heart-outline"></ion-icon>',
     price: "49,39 ₽",
     name: "Молоко",
+    label: 'id8',
     description: "Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»",
     stare: [
       "../assets/js/icon/star.svg",
@@ -125,6 +133,7 @@ const products = [
     icon: '<ion-icon name="heart-outline"></ion-icon>',
     price: "44,50 ₽",
     name: "Блинчики",
+    label: 'id9',
     description: "Г/Ц Блинчики с мясом вес, Россия",
     stare: [
       "../assets/js/icon/star.svg",
@@ -140,6 +149,7 @@ const products = [
     icon: '<ion-icon name="heart-outline"></ion-icon>',
     price: "49,50 ₽",
     name: "Блинчики",
+    label: 'id10',
     description: "A small, sweet fruit that grows in clusters, often used in wine-making.",
     stare: [
       "../assets/js/icon/star.svg",
@@ -155,6 +165,7 @@ const products = [
     icon: '<ion-icon name="heart-outline"></ion-icon>',
     price: "54,50 ₽",
     name: "Блинчики",
+    label: 'id11',
     description: "A small, sweet fruit that grows in clusters, often used in wine-making.",
     stare: [
       "../assets/js/icon/star.svg",
@@ -170,6 +181,7 @@ const products = [
     icon: '<ion-icon name="heart-outline"></ion-icon>',
     price: "44,50 ₽",
     name: "Блинчики",
+    label: 'id12',
     description: "A small, sweet fruit that grows in clusters, often used in wine-making.",
     stare: [
       "../assets/js/icon/star.svg",
@@ -185,6 +197,7 @@ const products = [
     icon: '<ion-icon name="heart-outline"></ion-icon>',
     price: "44,50 ₽",
     name: "Блинчики",
+    label: 'i13',
     description: "A oval-shaped reproductive body produced by birds, often used as a source of protein in meals.",
     stare: [
       "../assets/js/icon/star.svg",
@@ -200,6 +213,7 @@ const products = [
     icon: '<ion-icon name="heart-outline"></ion-icon>',
     price: "44,50 ₽",
     name: "Блинчики",
+    label: 'id14',
     description: "A type of seafood, known for its omega-3 fatty acids and high protein content.",
     stare: [
       "../assets/js/icon/star.svg",
@@ -215,6 +229,7 @@ const products = [
     icon: '<ion-icon name="heart-outline"></ion-icon>',
     price: "44,50 ₽",
     name: "Блинчики",
+    label: 'id15',
     description: "Г/Ц Блинчики с мясом вес, Россия",
     stare: [
       "../assets/js/icon/star.svg",
@@ -230,6 +245,7 @@ const products = [
     icon: '<ion-icon name="heart-outline"></ion-icon>',
     price: "44,50 ₽",
     name: "Блинчики",
+    label: 'id16',
     description: "A small, sweet fruit that grows in clusters, often used in wine-making.",
     stare: [
       "../assets/js/icon/star.svg",
@@ -245,6 +261,7 @@ const products = [
     icon: '<ion-icon name="heart-outline"></ion-icon>',
     price: "44,50 ₽",
     name: "Блинчики",
+    label: 'id17',
     description: "Г/Ц Блинчики с мясом вес, Россия",
     stare: [
       "../assets/js/icon/star.svg",
@@ -260,6 +277,7 @@ const products = [
     icon: '<ion-icon name="heart-outline"></ion-icon>',
     price: "44,50 ₽",
     name: "Блинчики",
+    label: 'id18',
     description: "A type of seafood, known for its omega-3 fatty acids and high protein content.",
     stare: [
       "../assets/js/icon/star.svg",
@@ -275,6 +293,7 @@ const products = [
     icon: '<ion-icon name="heart-outline"></ion-icon>',
     price: "44,50 ₽",
     name: "Блинчики",
+    label: 'id19',
     description: "A oval-shaped reproductive body produced by birds, often used as a source of protein in meals.",
     stare: [
       "../assets/js/icon/star.svg",
@@ -290,6 +309,7 @@ const products = [
     icon: '<ion-icon name="heart-outline"></ion-icon>',
     price: "44,50 ₽",
     name: "Блинчики",
+    label: 'id20',
     description: "A small, sweet fruit that grows in clusters, often used in wine-making.",
     stare: [
       "../assets/js/icon/star.svg",
@@ -305,6 +325,7 @@ const products = [
     icon: '<ion-icon name="heart-outline"></ion-icon>',
     price: "44,50 ₽",
     name: "Блинчики",
+    label: 'id21',
     description: "Ice cream is a frozen dessert made from cream, sugar, and flavorings.",
     stare: [
       "../assets/js/icon/star.svg",
@@ -320,6 +341,7 @@ const products = [
     icon: '<ion-icon name="heart-outline"></ion-icon>',
     price: "44,50 ₽",
     name: "Блинчики",
+    label: 'id22',
     description: "A oval-shaped reproductive body produced by birds, often used as a source of protein in meals.",
     stare: [
       "../assets/js/icon/star.svg",
@@ -335,6 +357,7 @@ const products = [
     icon: '<ion-icon name="heart-outline"></ion-icon>',
     price: "44,50 ₽",
     name: "Блинчики",
+    label: 'id23',
     description: "A type of seafood, known for its omega-3 fatty acids and high protein content.",
     stare: [
       "../assets/js/icon/star.svg",
@@ -350,6 +373,7 @@ const products = [
     icon: '<ion-icon name="heart-outline"></ion-icon>',
     price: "44,50 ₽",
     name: "Блинчики",
+    label: 'id24',
     description: "A oval-shaped reproductive body produced by birds, often used as a source of protein in meals.",
     stare: [
       "../assets/js/icon/star.svg",
@@ -365,6 +389,7 @@ const products = [
     icon: '<ion-icon name="heart-outline"></ion-icon>',
     price: "44,50 ₽",
     name: "Блинчики",
+    label: 'id25',
     description: "Г/Ц Блинчики с мясом вес, Россия",
     stare: [
       "../assets/js/icon/star.svg",
@@ -380,6 +405,7 @@ const products = [
     icon: '<ion-icon name="heart-outline"></ion-icon>',
     price: "44,50 ₽",
     name: "Блинчики",
+    label: 'id26',
     description: "A small, sweet fruit that grows in clusters, often used in wine-making.",
     stare: [
       "../assets/js/icon/star.svg",
@@ -395,6 +421,7 @@ const products = [
     icon: '<ion-icon name="heart-outline"></ion-icon>',
     price: "44,50 ₽",
     name: "Блинчики",
+    label: 'id27',
     description: "A type of seafood, known for its omega-3 fatty acids and high protein content.",
     stare: [
       "../assets/js/icon/star.svg",
@@ -410,6 +437,7 @@ const products = [
     icon: '<ion-icon name="heart-outline"></ion-icon>',
     price: "44,50 ₽",
     name: "Блинчики",
+    label: 'id28',
     description: "A oval-shaped reproductive body produced by birds, often used as a source of protein in meals.",
     stare: [
       "../assets/js/icon/star.svg",
@@ -425,6 +453,7 @@ const products = [
     icon: '<ion-icon name="heart-outline"></ion-icon>',
     price: "44,50 ₽",
     name: "Блинчики",
+    label: 'id29',
     description: "Ice cream is a frozen dessert made from cream, sugar, and flavorings.",
     stare: [
       "../assets/js/icon/star.svg",
@@ -440,6 +469,7 @@ const products = [
     icon: '<ion-icon name="heart-outline"></ion-icon>',
     price: "44,50 ₽",
     name: "Блинчики",
+    label: 'id30',
     description: "A oval-shaped reproductive body produced by birds, often used as a source of protein in meals.",
     stare: [
       "../assets/js/icon/star.svg",
@@ -455,6 +485,7 @@ const products = [
     icon: '<ion-icon name="heart-outline"></ion-icon>',
     price: "44,50 ₽",
     name: "Блинчики",
+    label: 'id31',
     description: "A type of seafood, known for its omega-3 fatty acids and high protein content.",
     stare: [
       "../assets/js/icon/star.svg",
@@ -470,6 +501,7 @@ const products = [
     icon: '<ion-icon name="heart-outline"></ion-icon>',
     price: "44,50 ₽",
     name: "Блинчики",
+    label: 'id32',
     description: "A small, sweet fruit that grows in clusters, often used in wine-making.",
     stare: [
       "../assets/js/icon/star.svg",
@@ -485,6 +517,7 @@ const products = [
     icon: '<ion-icon name="heart-outline"></ion-icon>',
     price: "44,50 ₽",
     name: "Блинчики",
+    label: 'id33',
     description: "A oval-shaped reproductive body produced by birds, often used as a source of protein in meals.",
     stare: [
       "../assets/js/icon/star.svg",
@@ -500,6 +533,7 @@ const products = [
     icon: '<ion-icon name="heart-outline"></ion-icon>',
     price: "44,50 ₽",
     name: "Блинчики",
+    label: 'id34',
     description: "Г/Ц Блинчики с мясом вес, Россия",
     stare: [
       "../assets/js/icon/star.svg",
@@ -515,6 +549,7 @@ const products = [
     icon: '<ion-icon name="heart-outline"></ion-icon>',
     price: "44,50 ₽",
     name: "Блинчики",
+    label: 'id35',
     description: "A type of seafood, known for its omega-3 fatty acids and high protein content.",
     stare: [
       "../assets/js/icon/star.svg",
@@ -530,6 +565,7 @@ const products = [
     icon: '<ion-icon name="heart-outline"></ion-icon>',
     price: "44,50 ₽",
     name: "Блинчики",
+    label: 'id36',
     description: "A oval-shaped reproductive body produced by birds, often used as a source of protein in meals.",
     stare: [
       "../assets/js/icon/star.svg",
@@ -549,7 +585,11 @@ products.map((product) => {
   <div class="product_card_img">
   <img src="${product.image}" alt="product">
   <div class="heart_icon">
+  <input type="checkbox" id="${product.label}">
+  <label for="${product.label}">
   <ion-icon name="heart-outline"></ion-icon>
+  <ion-icon name="heart"></ion-icon>
+  </label>
   </div>
   </div>
   <div class="product_card_text">
