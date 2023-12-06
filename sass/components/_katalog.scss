@@ -1,0 +1,63 @@
+.menu{
+    position: fixed;
+    top: -100%;
+    left: 0;
+    right: 0;
+    padding: 60px 0 40px 0;
+    background-color: $white;
+    transition: all 0.5s ease-in-out;
+    z-index: 10;
+}
+.katalog{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+    &_items{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 272px;
+        gap: 24px;
+        li{
+            color: $h-color;
+            font-size: 16px;
+            font-weight: 700;
+            transition: 0.3s;
+            line-height: 24px;
+            &:hover{
+                color: $btn-hover-color;
+            }
+        }
+    }
+}
+.navbar_menu{
+    .menu{
+        top: 50px;
+    }
+}
+.navbar_menu1{
+    .menu{
+        top: 50px;
+    }
+}
+
+@include for-tablet() {
+    .katalog{
+        gap: 40px 24px;
+        &_items{
+            width: 250px;
+            gap: 14px;
+            li{
+                font-size: 14px;
+                line-height: 21px;
+            }
+        }
+    }
+}
+// @include for-large-mobile() {
+//     .katalog{
+
+//     }
+// }

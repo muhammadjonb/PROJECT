@@ -3,6 +3,11 @@ let menu = document.getElementById("burger_menu");
 menu.addEventListener("click", function () {
   document.body.classList.toggle("navbar_menu");
 });
+let menu1 = document.getElementById("burger_menu1");
+
+menu1.addEventListener("click", function () {
+  document.body.classList.toggle("navbar_menu1");
+});
 
 
 window.addEventListener("scroll", function () {
