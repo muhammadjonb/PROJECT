@@ -1,9 +1,11 @@
 .products{
+    padding: 100px 0 0 0;
     background-color: $bg-color;
     .product{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        padding-bottom: 40px;
         gap: 50px;
         h2{
             font-size: 36px;
